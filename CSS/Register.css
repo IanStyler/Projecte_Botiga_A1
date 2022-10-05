@@ -1,0 +1,14 @@
+input{
+    display: block;
+    height: 20px;
+    padding: 5px 5px;
+    border: 1px solid lightgray;
+    margin: 5px;
+}
+button{
+    background: darkgoldenrod;
+    color: white;
+    border: none;
+    border-radius: 2px;
+
+}
