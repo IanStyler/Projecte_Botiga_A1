@@ -27,5 +27,7 @@ a:hover{
     background-color: black;
     color:white;
     padding:20px;
-
+}
+hr{
+    color: #dd801b;
 }
