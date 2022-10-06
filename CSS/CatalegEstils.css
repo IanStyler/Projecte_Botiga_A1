@@ -31,19 +31,17 @@ a:hover{
 }
 
 .producte{
-    border-color: black;
+    float: left;
     color: white;
 }
 
-#pro1{
+.img.pro{
     height: 15%;
     width: 15%;
 }
 
 .BotoCompra{
-    width: 5%;
-    height: 35px;
+    width: 20%;
+    height: 55px;
     background-color: orange;
-    background-image: url("../MEDIA/CarritoSimbolos.png");
-
 }
