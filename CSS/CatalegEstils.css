@@ -33,15 +33,15 @@ a:hover{
 .producte{
     float: left;
     color: white;
+    width: 350px
 }
 
-.img.pro{
-    height: 15%;
-    width: 15%;
+.img\.pro{
+    height: 50%;
+    width: 50%;
 }
 
 .BotoCompra{
-    width: 20%;
-    height: 55px;
-    background-color: orange;
+    width: 10%;
+    height: 30px;
 }
