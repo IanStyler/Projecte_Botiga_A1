@@ -10,6 +10,7 @@ nav {
     background-color: black;
     height: 40px;
     padding-top:18px;
+    text-align: center;
 
 }
 nav a {
@@ -19,15 +20,17 @@ nav a {
     padding:17px;
     color:black;
     text-decoration: none;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 a:hover{
     border-bottom:4px solid #dd801b;
     border-left:1px solid black;
     background-color: black;
-    color:white;
+    color:white !important;
     padding:20px;
 }
 hr{
-    color: #dd801b;
+    color: #dd801b !important;
 }
