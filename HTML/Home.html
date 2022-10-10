@@ -4,35 +4,44 @@
     <meta charset="UTF-8">
     <title>Book.net</title>
     <link rel="stylesheet" href="../CSS/Default.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="../CSS/Inici.css">
+
 </head>
 <body>
     <header>
         <img id="title" src="../MEDIA/LogoWeb2.png">
     </header>
-    <nav>
-        <a href="#">Home</a>
+    <nav id="menu">
+        <a href="Home.html">Home</a>
         <a href="#">Catàleg</a>
         <a href="#">Registre Client</a>
         <a href="#">Cistella</a>
         <a href="#">Condicions</a>
         <a href="#">Contacte</a>
     </nav>
+    <div class="respmenu">
+        <input type="checkbox">
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-times"></i>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="#">Catàleg</a></li>
+                <li><a href="#">Registre Client</a></li>
+                <li><a href="#">Cistella</a></li>
+                <li><a href="#">Condicions</a></li>
+                <li><a href="#">Contacte</a></li>
+            </ul>
+        </nav>
+    </div>
     <hr>
     <div class="contingut">
         <article>
             <div class="oferta">
-                <img class="robinhobb" src="../MEDIA/robinhobb.png">
-                <div class="descripcioProducte">
-                    <h2><span>Oferta:</span> -11% de descompte</h2>
-                    <p>Tota la saga de Robin Hobb completa, per un preu rebaixat</p>
-                </div>
+                <img class="robinhobb" src="../MEDIA/robinhobb.png";>
             </div>
-
         </article>
-        <aside>
-
-        </aside>
     </div>
 </body>
 </html>
