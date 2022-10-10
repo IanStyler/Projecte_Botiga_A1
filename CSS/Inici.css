@@ -1,0 +1,29 @@
+article {
+    background-color: #dd801b;
+    height: 500px;
+    width: 70%;
+}
+article .robinhobb{
+    height: 250px;
+    margin-left: 35px;
+}
+
+.oferta{
+    background-color: black;
+    display:inline-block;
+    height: 400px;
+}
+.descripcioProducte{
+    border: 1px solid white;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin:8px;
+    color:white;
+}
+.descripcioProducte h2{
+    color:red;
+    margin-left:4px;
+}
+.descripcioProducte span{
+    color:#dd801b;
+}
