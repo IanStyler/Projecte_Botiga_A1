@@ -11,4 +11,14 @@
 
 aside {
     color: white;
+    float: right;
+    padding-right: 20%;
+}
+
+button {
+    border-color: white;
+    color: white;
+}
+input{
+    color: white;
 }

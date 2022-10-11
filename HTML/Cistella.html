@@ -49,13 +49,33 @@
     <h3>Narnia <br> Primera edicio</h3>
     <h4>Preu: 11,30€</h4>
   </div>
+
 </article>
 <aside>
-    <label for="nom">Nom:</label>
+    <label for="nom">Nom:</label><br>
     <input type="text" id="nom" name="nom">
-    <label for="cognom">Cognom:</label>
+    <br>
+    <label for="cognom">Cognom:</label><br>
     <input type="text" id="cognom" name="cognom">
-    <label for="adreç">Adreça:</label>
-    <input type="text" id="adreç" name="nom">
+    <br>
+    <label for="adreç">Adreça:</label><br>
+    <input type="text" id="adreç" name="adreç">
+    <br>
+    <label for="TarC">Numero arjeta de credit:</label><br>
+    <input type="text" id="TarC" name="TarC">
+    <br>
+    <label for="caduca">Data caducacio tarjeta:</label><br>
+    <input type="date" id="caduca" name="Caduca">
+    <br>
+    <label>Tria el tpius d'enviament:</label><br>
+    <input type="radio" id="opcio1" name="enviament" value="Normal">
+    <label for="opcio1">Normal</label><br>
+    <input type="radio" id="opcio2" name="enviament" value="Urgent">
+    <label for="opcio2">Urgent</label><br>
+    <input type="radio" id="opcio3" name="enviament" value="En el mateix dia">
+    <label for="opcio3">En el mateix dia</label>
+    <h3>Preu total:</h3>
+    <h2>21,6 €</h2>
+    <button type="button" onclick="alert('Compra completada correctament')"><b>Finalitza Compra</b></button>
 </aside>
 </html>
