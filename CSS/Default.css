@@ -95,3 +95,8 @@ hr{
         display: none;
     }
 }
+
+iframe{
+    width: 100%;
+    border-style: none;
+}
