@@ -1,0 +1,12 @@
+.social-icons{
+    text-decoration:none;
+    color: white;
+    margin-left: 5px;
+}
+footer a:hover {
+    color: #dd801b;
+    transform: scale(1.2);
+}
+h2{
+    color: white;
+}

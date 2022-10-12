@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book.net</title>
+    <link rel="stylesheet" href="../CSS/Default.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="../CSS/Contact.css">
+</head>
+<body>
+<header>
+    <img id="title" src="../MEDIA/LogoWeb2.png">
+</header>
+<nav id="menu">
+    <a href="Home.html">Home</a>
+    <a href="#">Catàleg</a>
+    <a href="Register.html">Registre Client</a>
+    <a href="#">Cistella</a>
+    <a href="#">Condicions</a>
+    <a href="#">Contacte</a>
+</nav>
+<div class="respmenu">
+    <input type="checkbox">
+    <i class="fas fa-bars"></i>
+    <i class="fas fa-times"></i>
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="#">Catàleg</a></li>
+            <li><a href="Register.html">Registre Client</a></li>
+            <li><a href="#">Cistella</a></li>
+            <li><a href="#">Condicions</a></li>
+            <li><a href="#">Contacte</a></li>
+        </ul>
+    </nav>
+</div>
+<hr>
+<div id="contacte">
+    <h1>Contacta'ns!</h1>
+    <p>Telèfon de contacte: <a href="tel: +34972850711">972 850 711</a></p>
+    <p>Correu de contacte: <a href="mailto: contacte@book.net">contact@book.net</a></p>
+</div>
+
+<div id="formulari">
+    <form>
+        <div class="inputDiv">
+            <label for="nom"><b>Nom</b></label>
+            <input type="text" id="nom" placeholder="Nom" required>
+        </div>
+        <div class="inputDiv">
+            <label for="correu"><b>Correu</b></label>
+            <input type="email" id="correu" placeholder="Correu electrònic" required>
+        </div>
+        <div class=inputDiv">
+            <label for="missatge"><b>Missatge</b></label>
+            <textarea id="missatge" placeholder="Escriviu el vostre missatge aquí..." required></textarea>
+        </div>
+
+        <button type="submit" onclick="alert('Servei temporalment fora de servei!')">Envia-ho!</button>
+        <button type="reset">Neteja</button>
+
+    </form>
+</div>
+<h1>Vista'ns!</h1>
+<p>Carrer de l'institut s/n 17411 Vidreres</p>
+<div id="mapa">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2974.8043643378896!2d2.7650150156976294!3d41.789429678936926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12bb2212622e515b%3A0xcb8346fc30a721a1!2sInstitut%20Vidreres!5e0!3m2!1sca!2ses!4v1665569688014!5m2!1sca!2ses" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<footer>
+    <iframe src="Footer.html"></iframe>
+</footer>
+</body>
+</html>
