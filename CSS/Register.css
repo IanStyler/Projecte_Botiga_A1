@@ -38,6 +38,7 @@ form{
     height: 400px;
     text-align: left;
     float: left;
+    margin-bottom: 20px;
 }
 #formulari{
     display: flex;
